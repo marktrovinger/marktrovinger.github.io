@@ -1,4 +1,4 @@
 # About
 
-This is where you put the contents of your *About* page. Like all your pages, it's in [Markdown](https://guides.github.com/features/mastering-markdown/) format.
+Welcome to GANs and Gains, a name shamelessly stolen from gaming YouTuber and bodybuilder [Bajheera](https://www.youtube.com/user/BajheeraWoW). While he makes YouTube videos about World of Warcraft and lifting, my blog will be more focused on deep learning, machine learning and artificial intelligence more broadly. I plan to publish weekly going forward, so stick around!
 

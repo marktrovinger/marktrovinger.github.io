@@ -1,7 +1,0 @@
-# It's blogging time!
-
-Gregory Gunderson has an excellent [post](http://gregorygundersen.com/blog/2020/01/12/why-research-blog/) on his blog discussing how important writing is to the learning process; he opens with a quote from the incomparable Richard Feynman: > I learned very early the difference between knowing the name of something and knowing something.
-
-For me, for far too long I have done the former, but skipped out on the latter. Part of this came from a recent diagnosis of adult ADHD. When trying to learn something complicated, instead of digging in and really trying to learn it, it was like my mind would skip off and get distracted. After discussing my growing frustration with my wife, I saw a doctor who diagnosed me with adult ADHD. While there have been some rough times getting medicine and dosage correct, the improvement has been dramatic. It has allowed me the confidence to take some graduate courses on the way to entering grad school.
-
-Mr. Gunderson's post also talks about working through the background material relating to a certain problem. Part of my problem has long been a fixation with learning about a new topic and then my brain says "Ok! Cool! Done with this!" long before I have really mastered the topic at hand. My goal with this blog is in part to write through some of the problems I am having with learning a new and difficult topic.

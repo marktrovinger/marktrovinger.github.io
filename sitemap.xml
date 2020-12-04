@@ -3,39 +3,43 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/</loc>
+    <loc>https://marktrovinger.github.io/</loc>
   </url>
   
   <url>
-    <loc>/authors/</loc>
+    <loc>https://marktrovinger.github.io/authors/</loc>
   </url>
   
   <url>
-    <loc>/categories/</loc>
+    <loc>https://marktrovinger.github.io/categories/</loc>
   </url>
   
   <url>
-    <loc>/author/mark-trovinger/</loc>
+    <loc>https://marktrovinger.github.io/author/mark-trovinger/</loc>
   </url>
   
   <url>
-    <loc>/post/</loc>
+    <loc>https://marktrovinger.github.io/personal/</loc>
   </url>
   
   <url>
-    <loc>/publication_types/</loc>
+    <loc>https://marktrovinger.github.io/post/</loc>
   </url>
   
   <url>
-    <loc>/publication/</loc>
+    <loc>https://marktrovinger.github.io/publication_types/</loc>
   </url>
   
   <url>
-    <loc>/talk/</loc>
+    <loc>https://marktrovinger.github.io/publication/</loc>
   </url>
   
   <url>
-    <loc>/tags/</loc>
+    <loc>https://marktrovinger.github.io/talk/</loc>
+  </url>
+  
+  <url>
+    <loc>https://marktrovinger.github.io/tags/</loc>
   </url>
   
 </urlset>

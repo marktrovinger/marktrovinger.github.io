@@ -5,12 +5,22 @@
     <link>https://marktrovinger.github.io/post/</link>
       <atom:link href="https://marktrovinger.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 14 Dec 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://marktrovinger.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Posts</title>
       <link>https://marktrovinger.github.io/post/</link>
     </image>
+    
+    <item>
+      <title>Move to Hugo</title>
+      <link>https://marktrovinger.github.io/post/movetohugo/</link>
+      <pubDate>Mon, 14 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://marktrovinger.github.io/post/movetohugo/</guid>
+      <description>&lt;p&gt;You may have noticed that my site looks very different than it used to. I decided to move both my site and blog over to &lt;a href=&#34;https://gohugo.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo&lt;/a&gt;, partly due to my dissatisfaction with my old blogging software and my desire to make a more
+professional looking site as I get ready to start graduate school in Fall 2021.&lt;/p&gt;
+</description>
+    </item>
     
   </channel>
 </rss>

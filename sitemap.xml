@@ -4,6 +4,37 @@
   
   <url>
     <loc>https://marktrovinger.github.io/</loc>
+    <lastmod>2020-12-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://marktrovinger.github.io/tag/academia/</loc>
+    <lastmod>2020-12-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://marktrovinger.github.io/tag/blogging/</loc>
+    <lastmod>2020-12-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://marktrovinger.github.io/tag/hugo/</loc>
+    <lastmod>2020-12-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://marktrovinger.github.io/post/movetohugo/</loc>
+    <lastmod>2020-12-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://marktrovinger.github.io/post/</loc>
+    <lastmod>2020-12-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://marktrovinger.github.io/tags/</loc>
+    <lastmod>2020-12-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -23,10 +54,6 @@
   </url>
   
   <url>
-    <loc>https://marktrovinger.github.io/post/</loc>
-  </url>
-  
-  <url>
     <loc>https://marktrovinger.github.io/publication_types/</loc>
   </url>
   
@@ -36,10 +63,6 @@
   
   <url>
     <loc>https://marktrovinger.github.io/talk/</loc>
-  </url>
-  
-  <url>
-    <loc>https://marktrovinger.github.io/tags/</loc>
   </url>
   
 </urlset>

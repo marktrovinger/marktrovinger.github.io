@@ -5,12 +5,31 @@
     <link>https://marktrovinger.github.io/</link>
       <atom:link href="https://marktrovinger.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description></description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 14 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 18 Jul 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://marktrovinger.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title></title>
       <link>https://marktrovinger.github.io/</link>
     </image>
+    
+    <item>
+      <title>Prepping the Haydn&#39;s, Week 0</title>
+      <link>https://marktrovinger.github.io/post/preppingthehaydnsone/</link>
+      <pubDate>Sun, 18 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://marktrovinger.github.io/post/preppingthehaydnsone/</guid>
+      <description>&lt;p&gt;Every year, Purdue Fort Wayne&amp;rsquo;s School of Music holds a student concerto competition. The student who wins this competition will perform their chosen concerto with the Community Orchestra during the Spring semester. My goal for this upcoming year will be to enter with Haydn&amp;rsquo;s Trumpet Concerto in Eb Major. In order to prepare for this entry, I have been developing a training schedule as follows:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Monday: Movement I&lt;/li&gt;
+&lt;li&gt;Tuesday: Movement II&lt;/li&gt;
+&lt;li&gt;Wednesday: Movement III&lt;/li&gt;
+&lt;li&gt;Thursday: Movement I&lt;/li&gt;
+&lt;li&gt;Friday: Movement II&lt;/li&gt;
+&lt;li&gt;Saturday: Movement III&lt;/li&gt;
+&lt;li&gt;Sunday: Endurance&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The goal is to practice for at least 30 minutes per day, and slowly expand the amount of time per to day to at least 60 by the end of August.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Move to Hugo</title>

@@ -5,12 +5,79 @@
     <link>https://marktrovinger.github.io/post/</link>
       <atom:link href="https://marktrovinger.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 18 Jul 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 23 Jul 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://marktrovinger.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Posts</title>
       <link>https://marktrovinger.github.io/post/</link>
     </image>
+    
+    <item>
+      <title>Tracking Experiments, Now Easier!</title>
+      <link>https://marktrovinger.github.io/post/wandb-sb3/</link>
+      <pubDate>Fri, 23 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://marktrovinger.github.io/post/wandb-sb3/</guid>
+      <description>&lt;p&gt;One aspect of doing reinforcement learning research that has been more annoying than I would like is keeping track of experiments and experimental results. While this may sound a bit like an infomercial, I have to say that using Weights and Bias&amp;rsquo;s integration with Stable Baselines 3 has made experiment tracking way easier than it was before!&lt;/p&gt;
+&lt;p&gt;Using it is pretty simple, update to the latest version of WandB and then use&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;from wandb.integration.sb3 import WandbCallback
+
+model.learn(..., callback=WandbCallback())
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The basic example from WandB uses Tensorboard&amp;rsquo;s output to log metrics:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;import time
+import gym
+from stable_baselines3 import PPO
+from stable_baselines3.common.monitor import Monitor
+from stable_baselines3.common.vec_env import DummyVecEnv, VecVideoRecorder
+from wandb.integration.sb3 import WandbCallback
+import wandb
+
+config = {&amp;quot;policy_type&amp;quot;: &amp;quot;MlpPolicy&amp;quot;, &amp;quot;total_timesteps&amp;quot;: 25000}
+experiment_name = f&amp;quot;PPO_{int(time.time())}&amp;quot;
+
+# Initialise a W&amp;amp;B run
+wandb.init(
+    name=experiment_name,
+    project=&amp;quot;sb3&amp;quot;,
+    config=config,
+    sync_tensorboard=True,  # auto-upload sb3&#39;s tensorboard metrics
+    monitor_gym=True,  # auto-upload the videos of agents playing the game
+    save_code=True,  # optional
+)
+
+def make_env():
+    env = gym.make(&amp;quot;CartPole-v1&amp;quot;)
+    env = Monitor(env)  # record stats such as returns
+    return env
+
+env = DummyVecEnv([make_env])
+
+env = VecVideoRecorder(env, &amp;quot;videos&amp;quot;,
+    record_video_trigger=lambda x: x % 2000 == 0, video_length=200)
+
+model = PPO(config[&amp;quot;policy_type&amp;quot;], env, verbose=1,
+    tensorboard_log=f&amp;quot;runs/{experiment_name}&amp;quot;)
+
+# Add the WandbCallback 
+model.learn(
+    total_timesteps=config[&amp;quot;total_timesteps&amp;quot;],
+    callback=WandbCallback(
+        gradient_save_freq=100,
+        model_save_freq=1000,
+        model_save_path=f&amp;quot;models/{experiment_name}&amp;quot;,
+    ),
+)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://docs.wandb.ai/guides/integrations/other/stable-baselines-3&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Stable Baselines 3&lt;/a&gt; &lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+</description>
+    </item>
     
     <item>
       <title>Prepping the Haydn&#39;s, Week 0</title>

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title></title>
-    <link>https://marktrovinger.github.io/</link>
-      <atom:link href="https://marktrovinger.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <description></description>
+    <title>wandb | </title>
+    <link>https://marktrovinger.github.io/tag/wandb/</link>
+      <atom:link href="https://marktrovinger.github.io/tag/wandb/index.xml" rel="self" type="application/rss+xml" />
+    <description>wandb</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 23 Jul 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://marktrovinger.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
-      <title></title>
-      <link>https://marktrovinger.github.io/</link>
+      <title>wandb</title>
+      <link>https://marktrovinger.github.io/tag/wandb/</link>
     </image>
     
     <item>
@@ -76,37 +76,6 @@ model.learn(
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/section&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Prepping the Haydn&#39;s, Week 0</title>
-      <link>https://marktrovinger.github.io/post/preppingthehaydnsone/</link>
-      <pubDate>Sun, 18 Jul 2021 00:00:00 +0000</pubDate>
-      <guid>https://marktrovinger.github.io/post/preppingthehaydnsone/</guid>
-      <description>&lt;p&gt;Every year, Purdue Fort Wayne&amp;rsquo;s School of Music holds a student concerto competition. The student who wins this competition will perform their chosen concerto with the Community Orchestra during the Spring semester. My goal for this upcoming year will be to enter with Haydn&amp;rsquo;s Trumpet Concerto in Eb Major. In order to prepare for this entry, I have been developing a training schedule as follows:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Monday: Movement I&lt;/li&gt;
-&lt;li&gt;Tuesday: Movement II&lt;/li&gt;
-&lt;li&gt;Wednesday: Movement III&lt;/li&gt;
-&lt;li&gt;Thursday: Movement I&lt;/li&gt;
-&lt;li&gt;Friday: Movement II&lt;/li&gt;
-&lt;li&gt;Saturday: Movement III&lt;/li&gt;
-&lt;li&gt;Sunday: Endurance&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;The goal is to practice for at least 30 minutes per day, and slowly expand the amount of time per to day to at least 60 by the end of August.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Move to Hugo</title>
-      <link>https://marktrovinger.github.io/post/movetohugo/</link>
-      <pubDate>Mon, 14 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>https://marktrovinger.github.io/post/movetohugo/</guid>
-      <description>&lt;p&gt;You may have noticed that my site looks very different than it used to. I decided to move both my site and blog over to &lt;a href=&#34;https://gohugo.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo&lt;/a&gt;, partly due to my dissatisfaction with my old blogging software and my desire to make a more
-professional looking site as I get ready to start graduate school in Fall 2021.&lt;/p&gt;
-&lt;p&gt;Part of my dissatisfaction with the old setup, which used the fastai template, is it felt very fragile; I constantly felt like I was going to break something with no hope of being able to get it back. I also felt like it wasn&amp;rsquo;t a great way to demonstrate projects I was working on.&lt;/p&gt;
-&lt;p&gt;As you can see from the site as it sits right now, I have numerous small updates that need to be made, such as updating all of the cards that discuss what my research and career interests are.&lt;/p&gt;
 </description>
     </item>
     

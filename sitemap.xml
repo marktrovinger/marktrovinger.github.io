@@ -4,7 +4,42 @@
   
   <url>
     <loc>https://marktrovinger.github.io/</loc>
-    <lastmod>2021-07-18T00:00:00+00:00</lastmod>
+    <lastmod>2021-07-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://marktrovinger.github.io/tag/experiment/</loc>
+    <lastmod>2021-07-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://marktrovinger.github.io/post/</loc>
+    <lastmod>2021-07-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://marktrovinger.github.io/tag/reinforcement-learning/</loc>
+    <lastmod>2021-07-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://marktrovinger.github.io/tag/sb3/</loc>
+    <lastmod>2021-07-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://marktrovinger.github.io/tags/</loc>
+    <lastmod>2021-07-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://marktrovinger.github.io/post/wandb-sb3/</loc>
+    <lastmod>2021-07-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://marktrovinger.github.io/tag/wandb/</loc>
+    <lastmod>2021-07-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -23,17 +58,7 @@
   </url>
   
   <url>
-    <loc>https://marktrovinger.github.io/post/</loc>
-    <lastmod>2021-07-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://marktrovinger.github.io/post/preppingthehaydnsone/</loc>
-    <lastmod>2021-07-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://marktrovinger.github.io/tags/</loc>
     <lastmod>2021-07-18T00:00:00+00:00</lastmod>
   </url>
   
